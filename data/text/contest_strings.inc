@@ -1,4 +1,4 @@
-@ Contest move effect descriptions
+﻿@ Contest move effect descriptions
 
 gText_HighlyAppealingMove::
 	.string "A highly appealing move.$"
@@ -203,12 +203,12 @@ gContestMoveTypeToughText::
 	.string "TOUGH$"
 
 gText_AppealNumWhichMoveWillBePlayed::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "Which move will be played?$"
+	.string "Turn numbuh {STR_VAR_1}!\n"
+	.string "Your move, dumdum!$"
 
 gText_AppealNumButItCantParticipate::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "But it can't participate!$"
+	.string "Alright, Ms. Fritz,\n"
+	.string "I'm boutta head out.$"
 
 gText_MonAppealedWithMove::
 	.string "{STR_VAR_1} appealed with\n"
@@ -216,7 +216,7 @@ gText_MonAppealedWithMove::
 
 gText_MonWasWatchingOthers::
 	.string "{STR_VAR_1} was watching\n"
-	.string "the others.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "Rick and Morty.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_AllOutOfAppealTime::
 	.string "We're all out of\n"
@@ -225,7 +225,7 @@ gText_AllOutOfAppealTime::
 @ Unused appeal result texts
 
 gText_ButAppealWasJammed::
-	.string "But the appeal was\n"
+	.string "But the space was\n"
 	.string "jammed.$"
 
 gText_FollowedAnotherMonsLead::

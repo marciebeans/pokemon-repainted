@@ -4,7 +4,7 @@
 @       section by editing ScrCmd_braillemessage.
 Underwater_SealedChamber_Braille_GoUpHere:
 	brailleformat 4, 6, 26, 13, 7, 9
-	.braille "GO UP HERE.$"
+	.braille "EAT MY SHORTS.$"
 
 SealedChamber_OuterRoom_Braille_ABC:
 	brailleformat 7, 6, 21, 13, 10, 9
@@ -48,38 +48,38 @@ SealedChamber_OuterRoom_Braille_Comma:
 
 SealedChamber_OuterRoom_Braille_DigHere:
 	brailleformat 7, 4, 23, 15, 10, 7
-	.braille "DIG HERE.$"
+	.braille "ORDER CORN.$"
 
 SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth:
 	brailleformat 0, 0, 29, 19, 3, 3
-	.braille "FIRST COMES\n"
-	.braille "WAILORD.\n"
-	.braille "LAST COMES\n"
-	.braille "RELICANTH.$"
+	.braille "I FUCKED YOUR\n"
+	.braille "MOTHER.\n"
+	.braille "CONSENSUALLY,\n"
+	.braille "OF COURSE.$"
 
 SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived:
 	brailleformat 2, 0, 26, 19, 5, 3
-	.braille "IN THIS\n"
-	.braille "CAVE WE\n"
-	.braille "HAVE\n"
-	.braille "LIVED.$"
+	.braille "LOL ARE\n"
+	.braille "YOU USING\n"
+	.braille "A BRAILLE\n"
+	.braille "TRANSLATOR?$"
 
 SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon:
 	brailleformat 7, 2, 23, 17, 10, 5
-	.braille "WE OWE ALL\n"
-	.braille "TO THE\n"
-	.braille "POKEMON.$"
+	.braille "THATS KINDA\n"
+	.braille "FUNNY,\n"
+	.braille "CONSIDERING$"
 
 SealedChamber_InnerRoom_Braille_ButWeSealedThePokemonAway:
 	brailleformat 3, 0, 25, 19, 6, 3
-	.braille "BUT, WE\n"
-	.braille "SEALED THE\n"
-	.braille "POKEMON\n"
-	.braille "AWAY.$"
+	.braille "THE SOLUTION\n"
+	.braille "TO THIS PUZZLE\n"
+	.braille "IS COMPLETELY\n"
+	.braille "UNCHANGED.$"
 
 SealedChamber_InnerRoom_Braille_WeFearedIt:
 	brailleformat 5, 6, 25, 13, 8, 9
-	.braille "WE FEARED IT.$"
+	.braille "WOMP WOMP.$"
 
 SealedChamber_InnerRoom_Braille_ThoseWithCourageHope:
 	brailleformat 6, 0, 24, 19, 9, 3

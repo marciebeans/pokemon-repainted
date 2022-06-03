@@ -1,17 +1,17 @@
-Text_BootUpPC:
-	.string "{PLAYER} booted up the PC.$"
+﻿Text_BootUpPC:
+	.string "{PLAYER} booted up winrar.exe.$"
 
 gText_WhichPCShouldBeAccessed::
-	.string "Which PC should be accessed?$"
+	.string "Where we droppin, boyz?$"
 
 gText_AccessedSomeonesPC::
 	.string "Accessed SOMEONE'S PC.$"
 
 gText_StorageSystemOpened::
-	.string "POKéMON Storage System opened.$"
+	.string "It's my mons in a box!$"
 
 gText_AccessedPlayersPC::
-	.string "Accessed {PLAYER}'s PC.$"
+	.string "Lost {PLAYER}'s credit card number!$"
 
 gText_AccessedLanettesPC::
 	.string "Accessed LANETTE's PC.$"

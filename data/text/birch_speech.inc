@@ -1,61 +1,64 @@
-gText_Birch_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is BIRCH.\p"
-	.string "But everyone calls me the POKéMON\n"
-	.string "PROFESSOR.\p"
+﻿gText_Birch_Welcome::
+	.string "Hrmm, kept you waiting, huh?\p"
+	.string "Welcome to the world of Repainted!\p"
+	.string "My name is Andy.\p"
+	.string "But everyone calls me the Obligatory\n"
+	.string "Pokémon Professor.\n"
+	.string "(Nobody calls me that.)\p"
 	.string "$"
 
 gText_Birch_Pokemon::
-	.string "This is what we call a “POKéMON.”\p"
+	.string "Is this a pigeon?\p"
 	.string "\n"
 	.string "$"
 
 gText_Birch_MainSpeech::
-	.string "This world is widely inhabited by\n"
-	.string "creatures known as POKéMON.\p"
-	.string "We humans live alongside POKéMON,\n"
-	.string "at times as friendly playmates, and\l"
-	.string "at times as cooperative workmates.\p"
+	.string "Dumb jokes aside...\n"
+	.string "This world is completely infested by\n"
+	.string "la creatura known as Pokémon.\p"
+	.string "We gaymers live alongside Pokémon,\n"
+	.string "sometimes as friendly playmates, and\l"
+	.string "sometimes as depraved r34 searches.\p"
 	.string "And sometimes, we band together\n"
-	.string "and battle others like us.\p"
+	.string "and beat the shit out of each other.\p"
 	.string "But despite our closeness, we don't\n"
-	.string "know everything about POKéMON.\p"
-	.string "In fact, there are many, many\n"
-	.string "secrets surrounding POKéMON.\p"
-	.string "To unravel POKéMON mysteries,\n"
-	.string "I've been undertaking research.\l"
-	.string "That's what I do.\p"
+	.string "know everything about Pokémon.\p"
+	.string "Like... why does this one have\n"
+	.string "Chowder's face on it?\p"
 	.string "$"
 
 gText_Birch_AndYouAre::
-	.string "And you are?$"
+	.string "But enough about me...\n"
+	.string "how about you?$"
 
 gText_Birch_BoyOrGirl::
-	.string "Are you a boy?\n"
-	.string "Or are you a girl?$"
+	.string "Are you a (REDACTED)?\n"
+	.string "Or are you a (DATA EXPUNGED)?$"
 
 gText_Birch_WhatsYourName::
-	.string "All right.\n"
-	.string "What's your name?$"
+	.string "Gotta be one of my favorite\l"
+	.string "genders. Now, what's\l"
+	.string "your gamertag?$"
 
 gText_Birch_SoItsPlayer::
-	.string "So it's {PLAYER}{KUN}?$"
+	.string "So it's {PLAYER}{KUN}?\l"
+	.string "And not Chungy? You sure?$"
 
 gText_Birch_YourePlayer::
 	.string "Ah, okay!\p"
-	.string "You're {PLAYER}{KUN} who's moving to my\n"
-	.string "hometown of LITTLEROOT.\l"
-	.string "I get it now!\p"
+	.string "You're {PLAYER}{KUN} who's moving to\n"
+	.string "Jeearre Town. I get it now!\l"
+	.string "Hah, good luck paying rent there!\p"
 	.string "$"
 
 gText_Birch_AreYouReady::
 	.string "All right, are you ready?\p"
 	.string "Your very own adventure is about\n"
 	.string "to unfold.\p"
-	.string "Take courage, and leap into the\n"
-	.string "world of POKéMON where dreams,\l"
-	.string "adventure, and friendships await!\p"
-	.string "Well, I'll be expecting you later.\n"
-	.string "Come see me in my POKéMON LAB.\p"
+	.string "Stand proud, and leap into the\n"
+	.string "world of Repainted where memes,\l"
+	.string "adventure, and dinnerfarts await!\p"
+	.string "Be like Eminem and come back\n"
+	.string "to the lab again!\n"
+	.string "See you later, bozo!\p"
 	.string "$"

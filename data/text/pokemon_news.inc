@@ -1,18 +1,14 @@
-
+﻿
 gPokeNewsTextSlateport_Upcoming::
-	.string "Greetings!\n"
-	.string "It's time for POKéMON NEWS.\p"
-	.string "SLATEPORT's most popular kind of guy,\n"
-	.string "the ENERGY GURU, is in the news again!\p"
-	.string "He promises to, “Stupendously go for\n"
-	.string "it in just this many days: {STR_VAR_1}!”\p"
-	.string "While he refused to elaborate on what\n"
-	.string "he will stupendously go for, the\l"
-	.string "ENERGY GURU advised, “Save up your\l"
-	.string "money. That'll be good…”\p"
-	.string "It sounds like a trip to SLATEPORT\n"
-	.string "would be well worth your while that day.\p"
-	.string "That's the news on POKéMON NEWS.$"
+	.string "Now, this is a story all about how\n"
+	.string "My life got flipped-turned upside down\p"
+	.string "And I'd like to take a minute\n"
+	.string "Just sit right there,\n"
+	.string "I'll tell you how I became the prince\n"
+	.string "of a town called Bel-Air!”\p"
+	.string "In West Virbank City, born and raised,\p"
+	.string "(You make a mad dash for the\p"
+	.string "off button.)$"
 
 gPokeNewsTextSlateport_Ongoing::
 	.string "Greetings!\n"
