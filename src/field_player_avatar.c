@@ -1,4 +1,4 @@
-#include "global.h"
+﻿#include "global.h"
 #include "main.h"
 #include "bike.h"
 #include "event_data.h"
@@ -630,7 +630,7 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     if (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING)
     {
         // same speed as running
-        PlayerWalkFast(direction);
+        PlayerWalkFaster(direction);
         return;
     }
 
@@ -643,7 +643,7 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     }
     else
     {
-        PlayerWalkNormal(direction);
+        PlayerWalkFaster(direction);
     }
 }
 
