@@ -49,7 +49,6 @@
     [TRAINER_CLASS_SAILOR] = _("Sailor"),
     [TRAINER_CLASS_COOLTRAINER_2] = _("CoolTrainer"),
     [TRAINER_CLASS_MAGMA_ADMIN] = _("Magma Admin"),
-    [TRAINER_CLASS_PKMN_TRAINER_3] = _("{PKMN} Trainer"),
     [TRAINER_CLASS_BUG_CATCHER] = _("Bug Catcher"),
     [TRAINER_CLASS_PKMN_RANGER] = _("{PKMN} Ranger"),
     [TRAINER_CLASS_MAGMA_LEADER] = _("Magma Leader"),
