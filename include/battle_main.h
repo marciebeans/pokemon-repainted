@@ -1,4 +1,4 @@
-#ifndef GUARD_BATTLE_MAIN_H
+﻿#ifndef GUARD_BATTLE_MAIN_H
 #define GUARD_BATTLE_MAIN_H
 
 struct TrainerMoney
@@ -94,5 +94,11 @@ extern const u8 gStatusConditionString_ConfusionJpn[8];
 extern const u8 gStatusConditionString_LoveJpn[8];
 
 extern const u8 *const gStatusConditionStringsTable[7][2];
+
+struct TrainerBall
+{
+    u8 classId;
+    u8 Ball; // make this a u16 if needed
+};
 
 #endif // GUARD_BATTLE_MAIN_H

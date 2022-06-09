@@ -1,4 +1,4 @@
-#include "global.h"
+﻿#include "global.h"
 #include "battle.h"
 #include "battle_message.h"
 #include "battle_anim.h"
@@ -1162,7 +1162,7 @@ static const u16 sPickupItems[] =
     ITEM_GREAT_BALL,
     ITEM_REPEL,
     ITEM_ESCAPE_ROPE,
-    ITEM_X_ATTACK,
+    ITEM_HEART_SCALE,
     ITEM_FULL_HEAL,
     ITEM_ULTRA_BALL,
     ITEM_HYPER_POTION,
@@ -1178,17 +1178,17 @@ static const u16 sPickupItems[] =
 
 static const u16 sRarePickupItems[] =
 {
-    ITEM_HYPER_POTION,
+    ITEM_FULL_RESTORE,
     ITEM_NUGGET,
     ITEM_KINGS_ROCK,
-    ITEM_FULL_RESTORE,
-    ITEM_ETHER,
+    ITEM_PP_UP,
+    ITEM_PP_MAX,
     ITEM_WHITE_HERB,
-    ITEM_TM44_REST,
-    ITEM_ELIXIR,
-    ITEM_TM01_FOCUS_PUNCH,
+    ITEM_DESTINY_KNOT,
     ITEM_LEFTOVERS,
-    ITEM_TM26_EARTHQUAKE,
+    ITEM_WHITE_HERB,
+    ITEM_POWER_HERB,
+    ITEM_MENTAL_HERB,
 };
 
 static const u8 sPickupProbabilities[] =

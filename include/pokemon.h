@@ -1,4 +1,4 @@
-#ifndef GUARD_POKEMON_H
+﻿#ifndef GUARD_POKEMON_H
 #define GUARD_POKEMON_H
 
 #include "sprite.h"
@@ -8,6 +8,9 @@
 
 #define GET_BASE_SPECIES_ID(speciesId) (GetFormSpeciesId(speciesId, 0))
 #define FORM_SPECIES_END (0xffff)
+
+#define DAY_START 4
+#define NIGHT_START 18
 
 struct PokemonSubstruct0
 {

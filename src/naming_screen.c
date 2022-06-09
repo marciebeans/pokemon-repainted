@@ -1,4 +1,4 @@
-#include "global.h"
+﻿#include "global.h"
 #include "naming_screen.h"
 #include "malloc.h"
 #include "palette.h"
@@ -1490,6 +1490,9 @@ static bool8 KeyboardKeyHandler_Character(u8 input)
     {
         bool8 textFull = AddTextCharacter();
 
+        if (sNamingScreen ->currentPage == KBPAGE_LETTERS_UPPER && GetTextEntryPosition() == 1)
+            MainState_StartPageSwap();
+
         SquishCursor();
         if (textFull)
         {
@@ -2574,5 +2577,4 @@ static const struct SpritePalette sSpritePalettes[] =
     {gNamingScreenMenu_Pal + 0x40,  PALTAG_OK_BUTTON},
     {}
 };
-
 

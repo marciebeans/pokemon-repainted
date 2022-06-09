@@ -1,4 +1,4 @@
-#include "global.h"
+﻿#include "global.h"
 #include "malloc.h"
 #include "apprentice.h"
 #include "battle.h"
@@ -37,6 +37,7 @@
 #include "text.h"
 #include "trainer_hill.h"
 #include "util.h"
+#include "wild_encounter.h"
 #include "constants/abilities.h"
 #include "constants/battle_frontier.h"
 #include "constants/battle_move_effects.h"
@@ -3184,6 +3185,7 @@ void CreateMon(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 hasFix
 void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, u8 hasFixedPersonality, u32 fixedPersonality, u8 otIdType, u32 fixedOtId)
 {
     u8 speciesName[POKEMON_NAME_LENGTH + 1];
+    u32 shinyValue;
     u32 personality;
     u32 value;
     u16 checksum;
@@ -3212,11 +3214,29 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     }
     else // Player is the OT
     {
+         u32 rolls = 0;
+         u32 shinyRolls = 0;
         value = gSaveBlock2Ptr->playerTrainerId[0]
               | (gSaveBlock2Ptr->playerTrainerId[1] << 8)
               | (gSaveBlock2Ptr->playerTrainerId[2] << 16)
               | (gSaveBlock2Ptr->playerTrainerId[3] << 24);
         
+ #ifdef ITEM_SHINY_CHARM
+         if (CheckBagHasItem(ITEM_SHINY_CHARM, 1))
+             shinyRolls += 3;  //if you have the shiny charm, add 3 more rolls
+         #endif
+ 
+         if (gIsFishingEncounter)
+             shinyRolls += 1   2 * gChainFishingStreak; //1   2 rolls per streak count. max 41
+ 
+         if (shinyRolls)
+         {
+             do {
+                 personality = Random32();
+                 shinyValue = HIHALF(value) ^ LOHALF(value) ^ HIHALF(personality) ^ LOHALF(personality);
+                 rolls++;
+             } while (shinyValue >= SHINY_ODDS && rolls < shinyRolls);
+
         if (CheckBagHasItem(ITEM_SHINY_CHARM, 1))
         {
             u32 shinyValue;
@@ -8201,11 +8221,11 @@ u16 GetFormChangeTargetSpeciesBoxMon(struct BoxPokemon *mon, u16 method, u32 arg
                         switch (formChanges[i].param2)
                         {
                         case DAY:
-                            if (gLocalTime.hours >= 12 && gLocalTime.hours < 24)
+                            if (gLocalTime.hours >= DAY_START && gLocalTime.hours < NIGHT_START)
                                 targetSpecies = formChanges[i].targetSpecies;
                             break;
                         case NIGHT:
-                            if (gLocalTime.hours >= 0 && gLocalTime.hours < 12)
+                            if (gLocalTime.hours >= NIGHT_START || gLocalTime.hours < DAY_START)
                                 targetSpecies = formChanges[i].targetSpecies;
                             break;
                         }

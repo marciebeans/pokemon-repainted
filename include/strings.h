@@ -3021,5 +3021,9 @@ extern const u8 gText_Summary2[];
 extern const u8 gText_PkmnForSwap[];
 extern const u8 gText_SamePkmnInPartyAlready[];
 extern const u8 gText_Cancel3[];
+extern const u8 gText_ThrowInPremierBalls[];
+extern const u8 gText_SoldOut[];
+extern const u8 gText_SoldOut2[];
+
 
 #endif // GUARD_STRINGS_H
