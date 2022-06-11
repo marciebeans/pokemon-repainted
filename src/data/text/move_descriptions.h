@@ -1,4 +1,4 @@
-static const u8 sNullDescription[] = _(
+﻿static const u8 sNullDescription[] = _(
     "");
 
 static const u8 sPoundDescription[] = _(
